@@ -1,0 +1,195 @@
+
+{
+  "scenes": [
+    {
+      "title": "রঙিন বাগান",
+      "subtitle": "বাগানের জিনিস খুঁজে বের করো",
+      "background": "https://your-domain.pages.dev/backgrounds/garden.png",
+      "items": [
+        {"id":"flower","emoji":"🌻","name":"ফুল","letter":"ফ","x":0.12,"y":0.55,"w":0.08,"h":0.12},
+        {"id":"bird","emoji":"🐦","name":"পাখি","letter":"প","x":0.72,"y":0.18,"w":0.08,"h":0.11},
+        {"id":"tree","emoji":"🌳","name":"গাছ","letter":"গ","x":0.48,"y":0.35,"w":0.13,"h":0.20},
+        {"id":"butterfly","emoji":"🦋","name":"প্রজাপতি","letter":"প","x":0.84,"y":0.48,"w":0.08,"h":0.11},
+        {"id":"mango","emoji":"🥭","name":"আম","letter":"আ","x":0.30,"y":0.72,"w":0.08,"h":0.11},
+        {"id":"bee","emoji":"🐝","name":"মৌমাছি","letter":"ম","x":0.22,"y":0.20,"w":0.08,"h":0.11},
+        {"id":"rose","emoji":"🌹","name":"গোলাপ","letter":"গ","x":0.58,"y":0.78,"w":0.08,"h":0.11},
+        {"id":"cactus","emoji":"🌵","name":"ক্যাকটাস","letter":"ক","x":0.08,"y":0.82,"w":0.08,"h":0.11},
+        {"id":"mushroom","emoji":"🍄","name":"মাশরুম","letter":"ম","x":0.90,"y":0.80,"w":0.08,"h":0.11},
+        {"id":"sunflower","emoji":"🌼","name":"সূর্যমুখী","letter":"স","x":0.40,"y":0.18,"w":0.08,"h":0.11},
+        {"id":"snail","emoji":"🐌","name":"শামুক","letter":"শ","x":0.66,"y":0.88,"w":0.08,"h":0.10},
+        {"id":"watering_can","emoji":"🪣","name":"বালতি","letter":"ব","x":0.32,"y":0.45,"w":0.08,"h":0.11}
+      ]
+    },
+    {
+      "title": "ফলের বাজার",
+      "subtitle": "মজার মজার ফল খুঁজে বের করো",
+      "background": "https://your-domain.pages.dev/backgrounds/fruit_market.png",
+      "items": [
+        {"id":"apple","emoji":"🍎","name":"আপেল","letter":"আ","x":0.15,"y":0.55,"w":0.08,"h":0.11},
+        {"id":"banana","emoji":"🍌","name":"কলা","letter":"ক","x":0.38,"y":0.62,"w":0.08,"h":0.11},
+        {"id":"orange","emoji":"🍊","name":"কমলা","letter":"ক","x":0.62,"y":0.52,"w":0.08,"h":0.11},
+        {"id":"grapes","emoji":"🍇","name":"আঙুর","letter":"আ","x":0.82,"y":0.67,"w":0.08,"h":0.11},
+        {"id":"watermelon","emoji":"🍉","name":"তরমুজ","letter":"ত","x":0.50,"y":0.28,"w":0.11,"h":0.13},
+        {"id":"mango","emoji":"🥭","name":"আম","letter":"আ","x":0.10,"y":0.22,"w":0.08,"h":0.11},
+        {"id":"pineapple","emoji":"🍍","name":"আনারস","letter":"আ","x":0.35,"y":0.18,"w":0.08,"h":0.12},
+        {"id":"strawberry","emoji":"🍓","name":"স্ট্রবেরি","letter":"স","x":0.70,"y":0.20,"w":0.08,"h":0.11},
+        {"id":"pear","emoji":"🍐","name":"নাশপাতি","letter":"ন","x":0.90,"y":0.38,"w":0.08,"h":0.11},
+        {"id":"peach","emoji":"🍑","name":"পিচ","letter":"প","x":0.24,"y":0.82,"w":0.08,"h":0.11},
+        {"id":"cherries","emoji":"🍒","name":"চেরি","letter":"চ","x":0.52,"y":0.84,"w":0.08,"h":0.11},
+        {"id":"lemon","emoji":"🍋","name":"লেবু","letter":"ল","x":0.78,"y":0.86,"w":0.08,"h":0.11}
+      ]
+    },
+    {
+      "title": "সমুদ্র সৈকত",
+      "subtitle": "সমুদ্রের ধারে কী কী আছে খুঁজে দেখো",
+      "background": "https://your-domain.pages.dev/backgrounds/beach.png",
+      "items": [
+        {"id":"fish","emoji":"🐠","name":"মাছ","letter":"ম","x":0.22,"y":0.65,"w":0.08,"h":0.11},
+        {"id":"crab","emoji":"🦀","name":"কাঁকড়া","letter":"ক","x":0.75,"y":0.72,"w":0.08,"h":0.11},
+        {"id":"boat","emoji":"⛵","name":"নৌকা","letter":"ন","x":0.48,"y":0.25,"w":0.11,"h":0.13},
+        {"id":"shell","emoji":"🐚","name":"ঝিনুক","letter":"ঝ","x":0.12,"y":0.82,"w":0.08,"h":0.10},
+        {"id":"turtle","emoji":"🐢","name":"কচ্ছপ","letter":"ক","x":0.82,"y":0.42,"w":0.09,"h":0.11},
+        {"id":"dolphin","emoji":"🐬","name":"ডলফিন","letter":"ড","x":0.18,"y":0.30,"w":0.09,"h":0.12},
+        {"id":"octopus","emoji":"🐙","name":"অক্টোপাস","letter":"অ","x":0.58,"y":0.55,"w":0.09,"h":0.12},
+        {"id":"starfish","emoji":"⭐","name":"তারামাছ","letter":"ত","x":0.40,"y":0.80,"w":0.08,"h":0.11},
+        {"id":"whale","emoji":"🐳","name":"তিমি","letter":"ত","x":0.85,"y":0.18,"w":0.10,"h":0.12},
+        {"id":"palm","emoji":"🌴","name":"খেজুর গাছ","letter":"খ","x":0.08,"y":0.15,"w":0.12,"h":0.20},
+        {"id":"sunglasses","emoji":"🕶️","name":"চশমা","letter":"চ","x":0.65,"y":0.85,"w":0.08,"h":0.10},
+        {"id":"bucket","emoji":"🪣","name":"বালতি","letter":"ব","x":0.35,"y":0.48,"w":0.08,"h":0.11}
+      ]
+    },
+    {
+      "title": "খেলনার ঘর",
+      "subtitle": "তোমার প্রিয় খেলনা খুঁজে বের করো",
+      "background": "https://your-domain.pages.dev/backgrounds/toy_room.png",
+      "items": [
+        {"id":"ball","emoji":"⚽","name":"বল","letter":"ব","x":0.15,"y":0.72,"w":0.09,"h":0.11},
+        {"id":"doll","emoji":"🪆","name":"পুতুল","letter":"প","x":0.38,"y":0.40,"w":0.09,"h":0.13},
+        {"id":"teddy","emoji":"🧸","name":"ভালুক","letter":"ভ","x":0.72,"y":0.55,"w":0.10,"h":0.13},
+        {"id":"kite","emoji":"🪁","name":"ঘুড়ি","letter":"ঘ","x":0.83,"y":0.18,"w":0.09,"h":0.11},
+        {"id":"car","emoji":"🚗","name":"গাড়ি","letter":"গ","x":0.50,"y":0.78,"w":0.11,"h":0.10},
+        {"id":"train","emoji":"🚂","name":"ট্রেন","letter":"ট","x":0.12,"y":0.20,"w":0.11,"h":0.12},
+        {"id":"robot","emoji":"🤖","name":"রোবট","letter":"র","x":0.62,"y":0.22,"w":0.09,"h":0.12},
+        {"id":"drum","emoji":"🥁","name":"ঢোল","letter":"ঢ","x":0.30,"y":0.85,"w":0.09,"h":0.11},
+        {"id":"puzzle","emoji":"🧩","name":"ধাঁধা","letter":"ধ","x":0.88,"y":0.80,"w":0.08,"h":0.10},
+        {"id":"teddy_bear","emoji":"🐻","name":"ভালুক","letter":"ভ","x":0.08,"y":0.48,"w":0.09,"h":0.12},
+        {"id":"blocks","emoji":"🧱","name":"ইট","letter":"ই","x":0.48,"y":0.15,"w":0.09,"h":0.11},
+        {"id":"balloon","emoji":"🎈","name":"বেলুন","letter":"ব","x":0.80,"y":0.42,"w":0.09,"h":0.12}
+      ]
+    },
+    {
+      "title": "চিড়িয়াখানা",
+      "subtitle": "মজার সব প্রাণী খুঁজে বের করো",
+      "background": "https://your-domain.pages.dev/backgrounds/zoo.png",
+      "items": [
+        {"id":"elephant","emoji":"🐘","name":"হাতি","letter":"হ","x":0.15,"y":0.60,"w":0.12,"h":0.15},
+        {"id":"lion","emoji":"🦁","name":"সিংহ","letter":"স","x":0.52,"y":0.42,"w":0.11,"h":0.13},
+        {"id":"monkey","emoji":"🐒","name":"বানর","letter":"ব","x":0.78,"y":0.22,"w":0.09,"h":0.12},
+        {"id":"giraffe","emoji":"🦒","name":"জিরাফ","letter":"জ","x":0.35,"y":0.18,"w":0.09,"h":0.16},
+        {"id":"zebra","emoji":"🦓","name":"জেব্রা","letter":"জ","x":0.78,"y":0.70,"w":0.11,"h":0.13},
+        {"id":"tiger","emoji":"🐅","name":"বাঘ","letter":"ব","x":0.12,"y":0.25,"w":0.11,"h":0.13},
+        {"id":"panda","emoji":"🐼","name":"পান্ডা","letter":"প","x":0.40,"y":0.75,"w":0.10,"h":0.13},
+        {"id":"fox","emoji":"🦊","name":"শিয়াল","letter":"শ","x":0.88,"y":0.45,"w":0.09,"h":0.12},
+        {"id":"bear","emoji":"🐻","name":"ভালুক","letter":"ভ","x":0.62,"y":0.18,"w":0.10,"h":0.13},
+        {"id":"hippo","emoji":"🦛","name":"জলহস্তী","letter":"জ","x":0.25,"y":0.85,"w":0.11,"h":0.13},
+        {"id":"crocodile","emoji":"🐊","name":"কুমির","letter":"ক","x":0.58,"y":0.85,"w":0.11,"h":0.12},
+        {"id":"deer","emoji":"🦌","name":"হরিণ","letter":"হ","x":0.90,"y":0.82,"w":0.09,"h":0.12}
+      ]
+    },
+    {
+      "title": "মিষ্টির দোকান",
+      "subtitle": "সুস্বাদু মিষ্টি খুঁজে বের করো",
+      "background": "https://your-domain.pages.dev/backgrounds/sweet_shop.png",
+      "items": [
+        {"id":"cake","emoji":"🎂","name":"কেক","letter":"ক","x":0.18,"y":0.60,"w":0.10,"h":0.12},
+        {"id":"icecream","emoji":"🍦","name":"আইসক্রিম","letter":"আ","x":0.42,"y":0.28,"w":0.09,"h":0.13},
+        {"id":"donut","emoji":"🍩","name":"ডোনাট","letter":"ড","x":0.72,"y":0.60,"w":0.09,"h":0.11},
+        {"id":"candy","emoji":"🍬","name":"মিছরি","letter":"ম","x":0.85,"y":0.30,"w":0.08,"h":0.10},
+        {"id":"cookie","emoji":"🍪","name":"বিস্কুট","letter":"ব","x":0.48,"y":0.75,"w":0.09,"h":0.10},
+        {"id":"cupcake","emoji":"🧁","name":"কাপকেক","letter":"ক","x":0.12,"y":0.20,"w":0.09,"h":0.12},
+        {"id":"chocolate","emoji":"🍫","name":"চকলেট","letter":"চ","x":0.62,"y":0.18,"w":0.09,"h":0.12},
+        {"id":"lollipop","emoji":"🍭","name":"ললিপপ","letter":"ল","x":0.90,"y":0.80,"w":0.08,"h":0.12},
+        {"id":"honey","emoji":"🍯","name":"মধু","letter":"ম","x":0.30,"y":0.82,"w":0.09,"h":0.11},
+        {"id":"pudding","emoji":"🍮","name":"পুডিং","letter":"প","x":0.80,"y":0.48,"w":0.09,"h":0.11},
+        {"id":"pie","emoji":"🥧","name":"পাই","letter":"প","x":0.35,"y":0.48,"w":0.09,"h":0.11},
+        {"id":"popcorn","emoji":"🍿","name":"পপকর্ন","letter":"প","x":0.55,"y":0.90,"w":0.09,"h":0.10}
+      ]
+    },
+    {
+      "title": "খামারবাড়ি",
+      "subtitle": "খামারের প্রাণী ও জিনিস খুঁজে বের করো",
+      "background": "https://your-domain.pages.dev/backgrounds/farm.png",
+      "items": [
+        {"id":"cow","emoji":"🐄","name":"গরু","letter":"গ","x":0.18,"y":0.55,"w":0.12,"h":0.14},
+        {"id":"hen","emoji":"🐔","name":"মুরগি","letter":"ম","x":0.45,"y":0.72,"w":0.09,"h":0.11},
+        {"id":"goat","emoji":"🐐","name":"ছাগল","letter":"ছ","x":0.76,"y":0.55,"w":0.11,"h":0.13},
+        {"id":"duck","emoji":"🦆","name":"হাঁস","letter":"হ","x":0.62,"y":0.25,"w":0.09,"h":0.11},
+        {"id":"egg","emoji":"🥚","name":"ডিম","letter":"ড","x":0.28,"y":0.30,"w":0.08,"h":0.10},
+        {"id":"horse","emoji":"🐎","name":"ঘোড়া","letter":"ঘ","x":0.12,"y":0.18,"w":0.12,"h":0.14},
+        {"id":"sheep","emoji":"🐑","name":"ভেড়া","letter":"ভ","x":0.48,"y":0.42,"w":0.10,"h":0.12},
+        {"id":"pig","emoji":"🐖","name":"শূকর","letter":"শ","x":0.85,"y":0.20,"w":0.10,"h":0.12},
+        {"id":"rabbit","emoji":"🐇","name":"খরগোশ","letter":"খ","x":0.88,"y":0.82,"w":0.09,"h":0.11},
+        {"id":"tractor","emoji":"🚜","name":"ট্রাক্টর","letter":"ট","x":0.30,"y":0.85,"w":0.12,"h":0.13},
+        {"id":"corn","emoji":"🌽","name":"ভুট্টা","letter":"ভ","x":0.68,"y":0.85,"w":0.09,"h":0.12},
+        {"id":"carrot","emoji":"🥕","name":"গাজর","letter":"গ","x":0.40,"y":0.18,"w":0.09,"h":0.12}
+      ]
+    },
+    {
+      "title": "মহাকাশ অভিযান",
+      "subtitle": "মহাকাশের বিস্ময় খুঁজে বের করো",
+      "background": "https://your-domain.pages.dev/backgrounds/space.png",
+      "items": [
+        {"id":"rocket","emoji":"🚀","name":"রকেট","letter":"র","x":0.20,"y":0.30,"w":0.10,"h":0.15},
+        {"id":"moon","emoji":"🌙","name":"চাঁদ","letter":"চ","x":0.72,"y":0.20,"w":0.10,"h":0.12},
+        {"id":"star","emoji":"⭐","name":"তারা","letter":"ত","x":0.48,"y":0.50,"w":0.08,"h":0.10},
+        {"id":"planet","emoji":"🪐","name":"গ্রহ","letter":"গ","x":0.82,"y":0.68,"w":0.11,"h":0.12},
+        {"id":"astronaut","emoji":"👨‍🚀","name":"মহাকাশচারী","letter":"ম","x":0.32,"y":0.72,"w":0.10,"h":0.15},
+        {"id":"earth","emoji":"🌍","name":"পৃথিবী","letter":"প","x":0.10,"y":0.75,"w":0.10,"h":0.12},
+        {"id":"saturn","emoji":"🪐","name":"শনি","letter":"শ","x":0.55,"y":0.18,"w":0.11,"h":0.12},
+        {"id":"comet","emoji":"☄️","name":"ধূমকেতু","letter":"ধ","x":0.85,"y":0.35,"w":0.09,"h":0.11},
+        {"id":"alien","emoji":"👽","name":"এলিয়েন","letter":"এ","x":0.65,"y":0.78,"w":0.09,"h":0.11},
+        {"id":"satellite","emoji":"🛰️","name":"উপগ্রহ","letter":"উ","x":0.38,"y":0.18,"w":0.10,"h":0.12},
+        {"id":"telescope","emoji":"🔭","name":"দূরবীন","letter":"দ","x":0.15,"y":0.48,"w":0.10,"h":0.12},
+        {"id":"meteor","emoji":"🌠","name":"উল্কা","letter":"উ","x":0.48,"y":0.88,"w":0.09,"h":0.11}
+      ]
+    },
+    {
+      "title": "বর্ষার দিন",
+      "subtitle": "বৃষ্টির দিনের জিনিস খুঁজে বের করো",
+      "background": "https://your-domain.pages.dev/backgrounds/rainy_day.png",
+      "items": [
+        {"id":"umbrella","emoji":"☂️","name":"ছাতা","letter":"ছ","x":0.18,"y":0.35,"w":0.11,"h":0.13},
+        {"id":"cloud","emoji":"☁️","name":"মেঘ","letter":"ম","x":0.55,"y":0.18,"w":0.12,"h":0.11},
+        {"id":"boot","emoji":"🥾","name":"জুতা","letter":"জ","x":0.75,"y":0.70,"w":0.09,"h":0.11},
+        {"id":"frog","emoji":"🐸","name":"ব্যাঙ","letter":"ব","x":0.40,"y":0.70,"w":0.09,"h":0.11},
+        {"id":"rainbow","emoji":"🌈","name":"রংধনু","letter":"র","x":0.80,"y":0.30,"w":0.12,"h":0.13},
+        {"id":"raindrop","emoji":"💧","name":"পানির ফোঁটা","letter":"প","x":0.12,"y":0.18,"w":0.08,"h":0.11},
+        {"id":"puddle","emoji":"💦","name":"পানি","letter":"প","x":0.58,"y":0.82,"w":0.09,"h":0.11},
+        {"id":"raincoat","emoji":"🧥","name":"জ্যাকেট","letter":"জ","x":0.32,"y":0.25,"w":0.10,"h":0.13},
+        {"id":"snail","emoji":"🐌","name":"শামুক","letter":"শ","x":0.88,"y":0.82,"w":0.09,"h":0.11},
+        {"id":"duck","emoji":"🦆","name":"হাঁস","letter":"হ","x":0.25,"y":0.85,"w":0.09,"h":0.11},
+        {"id":"lightning","emoji":"⚡","name":"বজ্রপাত","letter":"ব","x":0.82,"y":0.15,"w":0.08,"h":0.11},
+        {"id":"water","emoji":"🌊","name":"ঢেউ","letter":"ঢ","x":0.52,"y":0.48,"w":0.11,"h":0.12}
+      ]
+    },
+    {
+      "title": "শীতের সকাল",
+      "subtitle": "শীতের পরিচিত জিনিস খুঁজে বের করো",
+      "background": "https://your-domain.pages.dev/backgrounds/winter.png",
+      "items": [
+        {"id":"jacket","emoji":"🧥","name":"জ্যাকেট","letter":"জ","x":0.18,"y":0.40,"w":0.10,"h":0.13},
+        {"id":"scarf","emoji":"🧣","name":"মাফলার","letter":"ম","x":0.52,"y":0.68,"w":0.10,"h":0.12},
+        {"id":"sun","emoji":"☀️","name":"সূর্য","letter":"স","x":0.76,"y":0.18,"w":0.10,"h":0.11},
+        {"id":"tea","emoji":"🍵","name":"চা","letter":"চ","x":0.78,"y":0.68,"w":0.09,"h":0.11},
+        {"id":"blanket","emoji":"🛏️","name":"কম্বল","letter":"ক","x":0.30,"y":0.75,"w":0.12,"h":0.12},
+        {"id":"cap","emoji":"🧢","name":"টুপি","letter":"ট","x":0.12,"y":0.18,"w":0.09,"h":0.11},
+        {"id":"gloves","emoji":"🧤","name":"হাতমোজা","letter":"হ","x":0.45,"y":0.20,"w":0.10,"h":0.11},
+        {"id":"socks","emoji":"🧦","name":"মোজা","letter":"ম","x":0.88,"y":0.40,"w":0.09,"h":0.11},
+        {"id":"snowman","emoji":"⛄","name":"তুষারমানব","letter":"ত","x":0.65,"y":0.45,"w":0.10,"h":0.13},
+        {"id":"fire","emoji":"🔥","name":"আগুন","letter":"আ","x":0.18,"y":0.82,"w":0.09,"h":0.11},
+        {"id":"coffee","emoji":"☕","name":"কফি","letter":"ক","x":0.48,"y":0.88,"w":0.09,"h":0.11},
+        {"id":"pine_tree","emoji":"🌲","name":"গাছ","letter":"গ","x":0.88,"y":0.85,"w":0.09,"h":0.12}
+      ]
+    }
+  ]
+}
