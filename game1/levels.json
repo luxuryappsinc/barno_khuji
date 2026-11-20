@@ -4,7 +4,7 @@
     {
       "title": "রঙিন বাগান",
       "subtitle": "বাগানের জিনিস খুঁজে বের করো",
-      "background": "https://your-domain.pages.dev/backgrounds/garden.png",
+      "background": "https://barno-khuji.pages.dev/game1/garden.png",
       "items": [
         {"id":"flower","emoji":"🌻","name":"ফুল","letter":"ফ","x":0.12,"y":0.55,"w":0.08,"h":0.12},
         {"id":"bird","emoji":"🐦","name":"পাখি","letter":"প","x":0.72,"y":0.18,"w":0.08,"h":0.11},
@@ -23,7 +23,7 @@
     {
       "title": "ফলের বাজার",
       "subtitle": "মজার মজার ফল খুঁজে বের করো",
-      "background": "https://your-domain.pages.dev/backgrounds/fruit_market.png",
+      "background": "https://barno-khuji.pages.dev/game1/fruit_garden.png",
       "items": [
         {"id":"apple","emoji":"🍎","name":"আপেল","letter":"আ","x":0.15,"y":0.55,"w":0.08,"h":0.11},
         {"id":"banana","emoji":"🍌","name":"কলা","letter":"ক","x":0.38,"y":0.62,"w":0.08,"h":0.11},
