@@ -1,1 +1,50 @@
 
+{
+  "levels": [
+    {
+      "level": 4,
+      "words": [
+        {
+          "word": "বিড়াল",
+          "image": "https://barno-khuji.pages.dev/game4/images/cat.png",
+          "emoji": "🐱",
+          "hint": "মিউ মিউ করে",
+          "parts": ["বি", "ড়া", "ল"]
+        },
+        {
+          "word": "গরু",
+          "image": "https://barno-khuji.pages.dev/game4/images/cow.png",
+          "emoji": "🐄",
+          "hint": "দুধ দেয়",
+          "parts": ["গ", "রু"]
+        },
+        {
+          "word": "ঘোড়া",
+          "image": "https://barno-khuji.pages.dev/game4/images/horse.png",
+          "emoji": "🐎",
+          "hint": "দৌড়াতে পারে",
+          "parts": ["ঘো", "ড়া"]
+        },
+        {
+          "word": "মোরগ",
+          "image": "https://barno-khuji.pages.dev/game4/images/rooster.png",
+          "emoji": "🐓",
+          "hint": "ভোরে ডাকে",
+          "parts": ["মো", "র", "গ"]
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "words": [
+        {
+          "word": "নৌকা",
+          "image": "https://barno-khuji.pages.dev/game4/images/boat.png",
+          "emoji": "🚣",
+          "hint": "পানিতে চলে",
+          "parts": ["নৌ", "কা"]
+        }
+      ]
+    }
+  ]
+}
