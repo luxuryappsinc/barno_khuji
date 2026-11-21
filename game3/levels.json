@@ -1,0 +1,394 @@
+{
+  "levels": [
+    {
+      "id": "level_01",
+      "title": "ফলের নাম",
+      "items": [
+        {
+          "image": "images/apple.png",
+          "emoji": "🍎",
+          "name": "আপেল"
+        },
+        {
+          "image": "images/banana.png",
+          "emoji": "🍌",
+          "name": "কলা"
+        },
+        {
+          "image": "images/mango.png",
+          "emoji": "🥭",
+          "name": "আম"
+        },
+        {
+          "image": "images/orange.png",
+          "emoji": "🍊",
+          "name": "কমলা"
+        }
+      ]
+    },
+    {
+      "id": "level_02",
+      "title": "যানবাহন",
+      "items": [
+        {
+          "image": "images/car.png",
+          "emoji": "🚗",
+          "name": "গাড়ি"
+        },
+        {
+          "image": "images/bus.png",
+          "emoji": "🚌",
+          "name": "বাস"
+        },
+        {
+          "image": "images/train.png",
+          "emoji": "🚆",
+          "name": "ট্রেন"
+        },
+        {
+          "image": "images/airplane.png",
+          "emoji": "✈️",
+          "name": "বিমান"
+        }
+      ]
+    },
+    {
+      "id": "level_03",
+      "title": "প্রাণী",
+      "items": [
+        {
+          "image": "images/elephant.png",
+          "emoji": "🐘",
+          "name": "হাতি"
+        },
+        {
+          "image": "images/tiger.png",
+          "emoji": "🐅",
+          "name": "বাঘ"
+        },
+        {
+          "image": "images/cat.png",
+          "emoji": "🐱",
+          "name": "বিড়াল"
+        },
+        {
+          "image": "images/dog.png",
+          "emoji": "🐶",
+          "name": "কুকুর"
+        }
+      ]
+    },
+    {
+      "id": "level_04",
+      "title": "পাখি",
+      "items": [
+        {
+          "image": "images/bird.png",
+          "emoji": "🐦",
+          "name": "পাখি"
+        },
+        {
+          "image": "images/duck.png",
+          "emoji": "🦆",
+          "name": "হাঁস"
+        },
+        {
+          "image": "images/parrot.png",
+          "emoji": "🦜",
+          "name": "টিয়া"
+        },
+        {
+          "image": "images/peacock.png",
+          "emoji": "🦚",
+          "name": "ময়ূর"
+        }
+      ]
+    },
+    {
+      "id": "level_05",
+      "title": "প্রকৃতি",
+      "items": [
+        {
+          "image": "images/tree.png",
+          "emoji": "🌳",
+          "name": "গাছ"
+        },
+        {
+          "image": "images/flower.png",
+          "emoji": "🌸",
+          "name": "ফুল"
+        },
+        {
+          "image": "images/sun.png",
+          "emoji": "🌞",
+          "name": "সূর্য"
+        },
+        {
+          "image": "images/moon.png",
+          "emoji": "🌙",
+          "name": "চাঁদ"
+        }
+      ]
+    },
+    {
+      "id": "level_06",
+      "title": "বাড়ির জিনিস",
+      "items": [
+        {
+          "image": "images/chair.png",
+          "emoji": "🪑",
+          "name": "চেয়ার"
+        },
+        {
+          "image": "images/table.png",
+          "emoji": "🪵",
+          "name": "টেবিল"
+        },
+        {
+          "image": "images/bed.png",
+          "emoji": "🛏️",
+          "name": "বিছানা"
+        },
+        {
+          "image": "images/clock.png",
+          "emoji": "🕒",
+          "name": "ঘড়ি"
+        }
+      ]
+    },
+    {
+      "id": "level_07",
+      "title": "খাবার",
+      "items": [
+        {
+          "image": "images/rice.png",
+          "emoji": "🍚",
+          "name": "ভাত"
+        },
+        {
+          "image": "images/bread.png",
+          "emoji": "🍞",
+          "name": "রুটি"
+        },
+        {
+          "image": "images/egg.png",
+          "emoji": "🥚",
+          "name": "ডিম"
+        },
+        {
+          "image": "images/milk.png",
+          "emoji": "🥛",
+          "name": "দুধ"
+        }
+      ]
+    },
+    {
+      "id": "level_08",
+      "title": "খেলাধুলা",
+      "items": [
+        {
+          "image": "images/ball.png",
+          "emoji": "⚽",
+          "name": "বল"
+        },
+        {
+          "image": "images/bat.png",
+          "emoji": "🏏",
+          "name": "ব্যাট"
+        },
+        {
+          "image": "images/trophy.png",
+          "emoji": "🏆",
+          "name": "ট্রফি"
+        },
+        {
+          "image": "images/bicycle.png",
+          "emoji": "🚲",
+          "name": "সাইকেল"
+        }
+      ]
+    },
+    {
+      "id": "level_09",
+      "title": "শিক্ষা উপকরণ",
+      "items": [
+        {
+          "image": "images/book.png",
+          "emoji": "📚",
+          "name": "বই"
+        },
+        {
+          "image": "images/pencil.png",
+          "emoji": "✏️",
+          "name": "পেন্সিল"
+        },
+        {
+          "image": "images/pen.png",
+          "emoji": "🖊️",
+          "name": "কলম"
+        },
+        {
+          "image": "images/bag.png",
+          "emoji": "🎒",
+          "name": "ব্যাগ"
+        }
+      ]
+    },
+    {
+      "id": "level_10",
+      "title": "জলজ প্রাণী",
+      "items": [
+        {
+          "image": "images/fish.png",
+          "emoji": "🐟",
+          "name": "মাছ"
+        },
+        {
+          "image": "images/turtle.png",
+          "emoji": "🐢",
+          "name": "কচ্ছপ"
+        },
+        {
+          "image": "images/octopus.png",
+          "emoji": "🐙",
+          "name": "অক্টোপাস"
+        },
+        {
+          "image": "images/crab.png",
+          "emoji": "🦀",
+          "name": "কাঁকড়া"
+        }
+      ]
+    },
+    {
+      "id": "level_11",
+      "title": "পোশাক",
+      "items": [
+        {
+          "image": "images/shirt.png",
+          "emoji": "👕",
+          "name": "জামা"
+        },
+        {
+          "image": "images/shoes.png",
+          "emoji": "👟",
+          "name": "জুতা"
+        },
+        {
+          "image": "images/hat.png",
+          "emoji": "🧢",
+          "name": "টুপি"
+        },
+        {
+          "image": "images/socks.png",
+          "emoji": "🧦",
+          "name": "মোজা"
+        }
+      ]
+    },
+    {
+      "id": "level_12",
+      "title": "রান্নাঘরের জিনিস",
+      "items": [
+        {
+          "image": "images/spoon.png",
+          "emoji": "🥄",
+          "name": "চামচ"
+        },
+        {
+          "image": "images/cup.png",
+          "emoji": "☕",
+          "name": "কাপ"
+        },
+        {
+          "image": "images/plate.png",
+          "emoji": "🍽️",
+          "name": "থালা"
+        },
+        {
+          "image": "images/pot.png",
+          "emoji": "🍲",
+          "name": "হাঁড়ি"
+        }
+      ]
+    },
+    {
+      "id": "level_13",
+      "title": "সবজি",
+      "items": [
+        {
+          "image": "images/potato.png",
+          "emoji": "🥔",
+          "name": "আলু"
+        },
+        {
+          "image": "images/tomato.png",
+          "emoji": "🍅",
+          "name": "টমেটো"
+        },
+        {
+          "image": "images/carrot.png",
+          "emoji": "🥕",
+          "name": "গাজর"
+        },
+        {
+          "image": "images/eggplant.png",
+          "emoji": "🍆",
+          "name": "বেগুন"
+        }
+      ]
+    },
+    {
+      "id": "level_14",
+      "title": "পোকামাকড়",
+      "items": [
+        {
+          "image": "images/butterfly.png",
+          "emoji": "🦋",
+          "name": "প্রজাপতি"
+        },
+        {
+          "image": "images/bee.png",
+          "emoji": "🐝",
+          "name": "মৌমাছি"
+        },
+        {
+          "image": "images/ant.png",
+          "emoji": "🐜",
+          "name": "পিঁপড়া"
+        },
+        {
+          "image": "images/ladybug.png",
+          "emoji": "🐞",
+          "name": "লেডিবাগ"
+        }
+      ]
+    },
+    {
+      "id": "level_15",
+      "title": "সমুদ্র ও আবহাওয়া",
+      "items": [
+        {
+          "image": "images/cloud.png",
+          "emoji": "☁️",
+          "name": "মেঘ"
+        },
+        {
+          "image": "images/rain.png",
+          "emoji": "🌧️",
+          "name": "বৃষ্টি"
+        },
+        {
+          "image": "images/wave.png",
+          "emoji": "🌊",
+          "name": "ঢেউ"
+        },
+        {
+          "image": "images/umbrella.png",
+          "emoji": "☂️",
+          "name": "ছাতা"
+        }
+      ]
+    }
+  ]
+}
