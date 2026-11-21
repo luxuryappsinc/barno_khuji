@@ -1,0 +1,495 @@
+
+{
+  "levels": [
+    {
+      "id": "garden_06",
+      "title": "ফুলের বাগান",
+      "target": "গ",
+      "hint": "গ দিয়ে শুরু হওয়া জিনিসটি খুঁজে বের করো!",
+      "background": "https://barno-khuji.pages.dev/game2/images/flower_garden.jpg",
+      "objects": [
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/rose.png",
+          "emoji": "🌹",
+          "name": "গোলাপ",
+          "letter": "গ",
+          "x": 0.16,
+          "y": 0.30
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/bird.png",
+          "emoji": "🐦",
+          "name": "পাখি",
+          "letter": "প",
+          "x": 0.49,
+          "y": 0.22
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/butterfly.png",
+          "emoji": "🦋",
+          "name": "প্রজাপতি",
+          "letter": "প",
+          "x": 0.81,
+          "y": 0.30
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/watering_can.png",
+          "emoji": "🚿",
+          "name": "পানি দেওয়ার পাত্র",
+          "letter": "প",
+          "x": 0.29,
+          "y": 0.65
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/bee.png",
+          "emoji": "🐝",
+          "name": "মৌমাছি",
+          "letter": "ম",
+          "x": 0.70,
+          "y": 0.65
+        }
+      ]
+    },
+    {
+      "id": "river_07",
+      "title": "নদীর পাড়",
+      "target": "ন",
+      "hint": "ন দিয়ে শুরু হওয়া জিনিসটি খুঁজে বের করো!",
+      "background": "https://barno-khuji.pages.dev/game2/images/river.jpg",
+      "objects": [
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/boat.png",
+          "emoji": "🛶",
+          "name": "নৌকা",
+          "letter": "ন",
+          "x": 0.17,
+          "y": 0.30
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/duck.png",
+          "emoji": "🦆",
+          "name": "হাঁস",
+          "letter": "হ",
+          "x": 0.49,
+          "y": 0.22
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/fish.png",
+          "emoji": "🐟",
+          "name": "মাছ",
+          "letter": "ম",
+          "x": 0.81,
+          "y": 0.30
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/crab.png",
+          "emoji": "🦀",
+          "name": "কাঁকড়া",
+          "letter": "ক",
+          "x": 0.29,
+          "y": 0.65
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/turtle.png",
+          "emoji": "🐢",
+          "name": "কচ্ছপ",
+          "letter": "ক",
+          "x": 0.70,
+          "y": 0.65
+        }
+      ]
+    },
+    {
+      "id": "farm_08",
+      "title": "সবুজ খামার",
+      "target": "গ",
+      "hint": "গ দিয়ে শুরু হওয়া প্রাণীটিকে খুঁজে বের করো!",
+      "background": "https://barno-khuji.pages.dev/game2/images/farm.jpg",
+      "objects": [
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/cow.png",
+          "emoji": "🐄",
+          "name": "গরু",
+          "letter": "গ",
+          "x": 0.17,
+          "y": 0.30
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/horse.png",
+          "emoji": "🐎",
+          "name": "ঘোড়া",
+          "letter": "ঘ",
+          "x": 0.49,
+          "y": 0.22
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/sheep.png",
+          "emoji": "🐑",
+          "name": "ভেড়া",
+          "letter": "ভ",
+          "x": 0.81,
+          "y": 0.30
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/tractor.png",
+          "emoji": "🚜",
+          "name": "ট্রাক্টর",
+          "letter": "ট",
+          "x": 0.29,
+          "y": 0.65
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/chicken.png",
+          "emoji": "🐔",
+          "name": "মুরগি",
+          "letter": "ম",
+          "x": 0.70,
+          "y": 0.65
+        }
+      ]
+    },
+    {
+      "id": "forest_09",
+      "title": "গভীর বন",
+      "target": "ব",
+      "hint": "ব দিয়ে শুরু হওয়া প্রাণীটিকে খুঁজে বের করো!",
+      "background": "https://barno-khuji.pages.dev/game2/images/forest.jpg",
+      "objects": [
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/tiger.png",
+          "emoji": "🐅",
+          "name": "বাঘ",
+          "letter": "ব",
+          "x": 0.17,
+          "y": 0.30
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/elephant.png",
+          "emoji": "🐘",
+          "name": "হাতি",
+          "letter": "হ",
+          "x": 0.49,
+          "y": 0.22
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/monkey.png",
+          "emoji": "🐒",
+          "name": "বানর",
+          "letter": "ব",
+          "x": 0.81,
+          "y": 0.30
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/deer.png",
+          "emoji": "🦌",
+          "name": "হরিণ",
+          "letter": "হ",
+          "x": 0.29,
+          "y": 0.65
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/parrot.png",
+          "emoji": "🦜",
+          "name": "টিয়া",
+          "letter": "ট",
+          "x": 0.70,
+          "y": 0.65
+        }
+      ]
+    },
+    {
+      "id": "winter_10",
+      "title": "শীতের সকাল",
+      "target": "ক",
+      "hint": "ক দিয়ে শুরু হওয়া জিনিসটি খুঁজে বের করো!",
+      "background": "https://barno-khuji.pages.dev/game2/images/winter.jpg",
+      "objects": [
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/blanket.png",
+          "emoji": "🛏️",
+          "name": "কম্বল",
+          "letter": "ক",
+          "x": 0.17,
+          "y": 0.30
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/sun.png",
+          "emoji": "☀️",
+          "name": "সূর্য",
+          "letter": "স",
+          "x": 0.49,
+          "y": 0.22
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/hat.png",
+          "emoji": "🧢",
+          "name": "টুপি",
+          "letter": "ট",
+          "x": 0.81,
+          "y": 0.30
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/tea.png",
+          "emoji": "🍵",
+          "name": "চা",
+          "letter": "চ",
+          "x": 0.29,
+          "y": 0.65
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/fire.png",
+          "emoji": "🔥",
+          "name": "আগুন",
+          "letter": "আ",
+          "x": 0.70,
+          "y": 0.65
+        }
+      ]
+    },
+    {
+      "id": "kitchen_11",
+      "title": "রান্নাঘর",
+      "target": "ব",
+      "hint": "ব দিয়ে শুরু হওয়া জিনিসটি খুঁজে বের করো!",
+      "background": "https://barno-khuji.pages.dev/game2/images/kitchen.jpg",
+      "objects": [
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/bowl.png",
+          "emoji": "🥣",
+          "name": "বাটি",
+          "letter": "ব",
+          "x": 0.17,
+          "y": 0.30
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/spoon.png",
+          "emoji": "🥄",
+          "name": "চামচ",
+          "letter": "চ",
+          "x": 0.49,
+          "y": 0.22
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/plate.png",
+          "emoji": "🍽️",
+          "name": "থালা",
+          "letter": "থ",
+          "x": 0.81,
+          "y": 0.30
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/pot.png",
+          "emoji": "🍲",
+          "name": "হাঁড়ি",
+          "letter": "হ",
+          "x": 0.29,
+          "y": 0.65
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/glass.png",
+          "emoji": "🥛",
+          "name": "গ্লাস",
+          "letter": "গ",
+          "x": 0.70,
+          "y": 0.65
+        }
+      ]
+    },
+    {
+      "id": "school_12",
+      "title": "আমাদের বিদ্যালয়",
+      "target": "ব",
+      "hint": "ব দিয়ে শুরু হওয়া জিনিসটি খুঁজে বের করো!",
+      "background": "https://barno-khuji.pages.dev/game2/images/school.jpg",
+      "objects": [
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/book.png",
+          "emoji": "📚",
+          "name": "বই",
+          "letter": "ব",
+          "x": 0.17,
+          "y": 0.30
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/pencil.png",
+          "emoji": "✏️",
+          "name": "পেন্সিল",
+          "letter": "প",
+          "x": 0.49,
+          "y": 0.22
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/bag.png",
+          "emoji": "🎒",
+          "name": "ব্যাগ",
+          "letter": "ব",
+          "x": 0.81,
+          "y": 0.30
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/ruler.png",
+          "emoji": "📏",
+          "name": "স্কেল",
+          "letter": "স",
+          "x": 0.29,
+          "y": 0.65
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/eraser.png",
+          "emoji": "🧽",
+          "name": "রাবার",
+          "letter": "র",
+          "x": 0.70,
+          "y": 0.65
+        }
+      ]
+    },
+    {
+      "id": "market_13",
+      "title": "ফলের বাজার",
+      "target": "ল",
+      "hint": "ল দিয়ে শুরু হওয়া ফলটি খুঁজে বের করো!",
+      "background": "https://barno-khuji.pages.dev/game2/images/market.jpg",
+      "objects": [
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/lemon.png",
+          "emoji": "🍋",
+          "name": "লেবু",
+          "letter": "ল",
+          "x": 0.17,
+          "y": 0.30
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/apple.png",
+          "emoji": "🍎",
+          "name": "আপেল",
+          "letter": "আ",
+          "x": 0.49,
+          "y": 0.22
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/orange.png",
+          "emoji": "🍊",
+          "name": "কমলা",
+          "letter": "ক",
+          "x": 0.81,
+          "y": 0.30
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/guava.png",
+          "emoji": "🍐",
+          "name": "পেয়ারা",
+          "letter": "প",
+          "x": 0.29,
+          "y": 0.65
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/papaya.png",
+          "emoji": "🥭",
+          "name": "পেঁপে",
+          "letter": "প",
+          "x": 0.70,
+          "y": 0.65
+        }
+      ]
+    },
+    {
+      "id": "playground_14",
+      "title": "খেলার মাঠ",
+      "target": "দ",
+      "hint": "দ দিয়ে শুরু হওয়া জিনিসটি খুঁজে বের করো!",
+      "background": "https://barno-khuji.pages.dev/game2/images/playground.jpg",
+      "objects": [
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/ball.png",
+          "emoji": "⚽",
+          "name": "দড়ি",
+          "letter": "দ",
+          "x": 0.17,
+          "y": 0.30
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/kite.png",
+          "emoji": "🪁",
+          "name": "ঘুড়ি",
+          "letter": "ঘ",
+          "x": 0.49,
+          "y": 0.22
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/bicycle.png",
+          "emoji": "🚲",
+          "name": "সাইকেল",
+          "letter": "স",
+          "x": 0.81,
+          "y": 0.30
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/slide.png",
+          "emoji": "🛝",
+          "name": "স্লাইড",
+          "letter": "স",
+          "x": 0.29,
+          "y": 0.65
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/swing.png",
+          "emoji": "🎠",
+          "name": "দোলনা",
+          "letter": "দ",
+          "x": 0.70,
+          "y": 0.65
+        }
+      ]
+    },
+    {
+      "id": "village_15",
+      "title": "গ্রামের মেলা",
+      "target": "ন",
+      "hint": "ন দিয়ে শুরু হওয়া জিনিসটি খুঁজে বের করো!",
+      "background": "https://barno-khuji.pages.dev/game2/images/fair.jpg",
+      "objects": [
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/drum.png",
+          "emoji": "🥁",
+          "name": "ঢোল",
+          "letter": "ঢ",
+          "x": 0.17,
+          "y": 0.30
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/balloon.png",
+          "emoji": "🎈",
+          "name": "বেলুন",
+          "letter": "ব",
+          "x": 0.49,
+          "y": 0.22
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/doll.png",
+          "emoji": "🪆",
+          "name": "পুতুল",
+          "letter": "প",
+          "x": 0.81,
+          "y": 0.30
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/nagordola.png",
+          "emoji": "🎡",
+          "name": "নাগরদোলা",
+          "letter": "ন",
+          "x": 0.29,
+          "y": 0.65
+        },
+        {
+          "image": "https://barno-khuji.pages.dev/game2/images/ice_cream.png",
+          "emoji": "🍦",
+          "name": "আইসক্রিম",
+          "letter": "আ",
+          "x": 0.70,
+          "y": 0.65
+        }
+      ]
+    }
+  ]
+}
