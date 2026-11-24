@@ -42,7 +42,7 @@
     {
       "title": "সমুদ্র সৈকত",
       "subtitle": "সমুদ্রের ধারে কী কী আছে খুঁজে দেখো",
-      "background": "https://your-domain.pages.dev/backgrounds/beach.png",
+      "background": "https://barno-khuji.pages.dev/game1/beach.png",
       "items": [
         {"id":"fish","emoji":"🐠","name":"মাছ","letter":"ম","x":0.22,"y":0.65,"w":0.08,"h":0.11},
         {"id":"crab","emoji":"🦀","name":"কাঁকড়া","letter":"ক","x":0.75,"y":0.72,"w":0.08,"h":0.11},
@@ -61,7 +61,7 @@
     {
       "title": "খেলনার ঘর",
       "subtitle": "তোমার প্রিয় খেলনা খুঁজে বের করো",
-      "background": "https://your-domain.pages.dev/backgrounds/toy_room.png",
+      "background": "https://barno-khuji.pages.dev/game1/toy_room.png",
       "items": [
         {"id":"ball","emoji":"⚽","name":"বল","letter":"ব","x":0.15,"y":0.72,"w":0.09,"h":0.11},
         {"id":"doll","emoji":"🪆","name":"পুতুল","letter":"প","x":0.38,"y":0.40,"w":0.09,"h":0.13},
@@ -80,7 +80,7 @@
     {
       "title": "চিড়িয়াখানা",
       "subtitle": "মজার সব প্রাণী খুঁজে বের করো",
-      "background": "https://your-domain.pages.dev/backgrounds/zoo.png",
+      "background": "https://barno-khuji.pages.dev/game1/zoo.png",
       "items": [
         {"id":"elephant","emoji":"🐘","name":"হাতি","letter":"হ","x":0.15,"y":0.60,"w":0.12,"h":0.15},
         {"id":"lion","emoji":"🦁","name":"সিংহ","letter":"স","x":0.52,"y":0.42,"w":0.11,"h":0.13},
@@ -99,7 +99,7 @@
     {
       "title": "মিষ্টির দোকান",
       "subtitle": "সুস্বাদু মিষ্টি খুঁজে বের করো",
-      "background": "https://your-domain.pages.dev/backgrounds/sweet_shop.png",
+      "background": "https://barno-khuji.pages.dev/game1/sweet_shop.png",
       "items": [
         {"id":"cake","emoji":"🎂","name":"কেক","letter":"ক","x":0.18,"y":0.60,"w":0.10,"h":0.12},
         {"id":"icecream","emoji":"🍦","name":"আইসক্রিম","letter":"আ","x":0.42,"y":0.28,"w":0.09,"h":0.13},
@@ -118,7 +118,7 @@
     {
       "title": "খামারবাড়ি",
       "subtitle": "খামারের প্রাণী ও জিনিস খুঁজে বের করো",
-      "background": "https://your-domain.pages.dev/backgrounds/farm.png",
+      "background": "https://barno-khuji.pages.dev/game1/farm.png",
       "items": [
         {"id":"cow","emoji":"🐄","name":"গরু","letter":"গ","x":0.18,"y":0.55,"w":0.12,"h":0.14},
         {"id":"hen","emoji":"🐔","name":"মুরগি","letter":"ম","x":0.45,"y":0.72,"w":0.09,"h":0.11},
@@ -137,7 +137,7 @@
     {
       "title": "মহাকাশ অভিযান",
       "subtitle": "মহাকাশের বিস্ময় খুঁজে বের করো",
-      "background": "https://your-domain.pages.dev/backgrounds/space.png",
+      "background": "https://barno-khuji.pages.dev/game1/space.png",
       "items": [
         {"id":"rocket","emoji":"🚀","name":"রকেট","letter":"র","x":0.20,"y":0.30,"w":0.10,"h":0.15},
         {"id":"moon","emoji":"🌙","name":"চাঁদ","letter":"চ","x":0.72,"y":0.20,"w":0.10,"h":0.12},
@@ -156,7 +156,7 @@
     {
       "title": "বর্ষার দিন",
       "subtitle": "বৃষ্টির দিনের জিনিস খুঁজে বের করো",
-      "background": "https://your-domain.pages.dev/backgrounds/rainy_day.png",
+      "background": "https://barno-khuji.pages.dev/game1/rainy_day.png",
       "items": [
         {"id":"umbrella","emoji":"☂️","name":"ছাতা","letter":"ছ","x":0.18,"y":0.35,"w":0.11,"h":0.13},
         {"id":"cloud","emoji":"☁️","name":"মেঘ","letter":"ম","x":0.55,"y":0.18,"w":0.12,"h":0.11},
@@ -175,7 +175,7 @@
     {
       "title": "শীতের সকাল",
       "subtitle": "শীতের পরিচিত জিনিস খুঁজে বের করো",
-      "background": "https://your-domain.pages.dev/backgrounds/winter.png",
+      "background": "https://barno-khuji.pages.dev/game1/winter.png",
       "items": [
         {"id":"jacket","emoji":"🧥","name":"জ্যাকেট","letter":"জ","x":0.18,"y":0.40,"w":0.10,"h":0.13},
         {"id":"scarf","emoji":"🧣","name":"মাফলার","letter":"ম","x":0.52,"y":0.68,"w":0.10,"h":0.12},
