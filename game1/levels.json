@@ -97,24 +97,24 @@
   ]
 },
     {
-      "title": "মিষ্টির দোকান",
-      "subtitle": "সুস্বাদু মিষ্টি খুঁজে বের করো",
-      "background": "https://barno-khuji.pages.dev/game1/sweet_shop.png",
-      "items": [
-        {"id":"cake","emoji":"🎂","name":"কেক","letter":"ক","x":0.18,"y":0.60,"w":0.10,"h":0.12},
-        {"id":"icecream","emoji":"🍦","name":"আইসক্রিম","letter":"আ","x":0.42,"y":0.28,"w":0.09,"h":0.13},
-        {"id":"donut","emoji":"🍩","name":"ডোনাট","letter":"ড","x":0.72,"y":0.60,"w":0.09,"h":0.11},
-        {"id":"candy","emoji":"🍬","name":"মিছরি","letter":"ম","x":0.85,"y":0.30,"w":0.08,"h":0.10},
-        {"id":"cookie","emoji":"🍪","name":"বিস্কুট","letter":"ব","x":0.48,"y":0.75,"w":0.09,"h":0.10},
-        {"id":"cupcake","emoji":"🧁","name":"কাপকেক","letter":"ক","x":0.12,"y":0.20,"w":0.09,"h":0.12},
-        {"id":"chocolate","emoji":"🍫","name":"চকলেট","letter":"চ","x":0.62,"y":0.18,"w":0.09,"h":0.12},
-        {"id":"lollipop","emoji":"🍭","name":"ললিপপ","letter":"ল","x":0.90,"y":0.80,"w":0.08,"h":0.12},
-        {"id":"honey","emoji":"🍯","name":"মধু","letter":"ম","x":0.30,"y":0.82,"w":0.09,"h":0.11},
-        {"id":"pudding","emoji":"🍮","name":"পুডিং","letter":"প","x":0.80,"y":0.48,"w":0.09,"h":0.11},
-        {"id":"pie","emoji":"🥧","name":"পাই","letter":"প","x":0.35,"y":0.48,"w":0.09,"h":0.11},
-        {"id":"popcorn","emoji":"🍿","name":"পপকর্ন","letter":"প","x":0.55,"y":0.90,"w":0.09,"h":0.10}
-      ]
-    },
+  "title": "মিষ্টির দোকান",
+  "subtitle": "সুস্বাদু মিষ্টি খুঁজে বের করো",
+  "background": "https://barno-khuji.pages.dev/game1/sweet_shop.png",
+  "items": [
+    {"id":"cake","emoji":"🎂","name":"কেক","letter":"ক","x":0.172,"y":0.416,"w":0.10,"h":0.12},
+    {"id":"icecream","emoji":"🍦","name":"আইসক্রিম","letter":"আ","x":0.282,"y":0.345,"w":0.09,"h":0.13},
+    {"id":"donut","emoji":"🍩","name":"ডোনাট","letter":"ড","x":0.384,"y":0.413,"w":0.09,"h":0.11},
+    {"id":"candy","emoji":"🍬","name":"ক্যান্ডি","letter":"ম","x":0.191,"y":0.724,"w":0.08,"h":0.10},
+    {"id":"cookie","emoji":"🍪","name":"বিস্কুট","letter":"ব","x":0.496,"y":0.413,"w":0.09,"h":0.10},
+    {"id":"cupcake","emoji":"🧁","name":"কাপকেক","letter":"ক","x":0.608,"y":0.354,"w":0.09,"h":0.12},
+    {"id":"chocolate","emoji":"🍫","name":"চকলেট","letter":"চ","x":0.725,"y":0.405,"w":0.09,"h":0.12},
+    {"id":"lollipop","emoji":"🍭","name":"ললিপপ","letter":"ল","x":0.853,"y":0.291,"w":0.08,"h":0.12},
+    {"id":"honey","emoji":"🍯","name":"মধু","letter":"ম","x":0.580,"y":0.750,"w":0.09,"h":0.11},
+    {"id":"pudding","emoji":"🍮","name":"পুডিং","letter":"প","x":0.383,"y":0.762,"w":0.09,"h":0.11},
+    {"id":"pie","emoji":"🥧","name":"পাই","letter":"প","x":0.719,"y":0.747,"w":0.09,"h":0.11},
+    {"id":"popcorn","emoji":"🍿","name":"পপকর্ন","letter":"প","x":0.853,"y":0.707,"w":0.09,"h":0.10}
+  ]
+},
     {
       "title": "খামারবাড়ি",
       "subtitle": "খামারের প্রাণী ও জিনিস খুঁজে বের করো",
