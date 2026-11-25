@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Coordinate Finder</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 24px; font-family: Arial, sans-serif;
+      background: #f4f6f8; color: #20252b;
+    }
+    .app { max-width: 1100px; margin: 0 auto; }
+    h1 { margin: 0 0 8px; font-size: 25px; }
+    .hint { color: #5c6670; margin: 0 0 20px; line-height: 1.5; }
+    .panel {
+      background: white; border: 1px solid #dfe4e8; border-radius: 12px;
+      padding: 18px; margin-bottom: 16px;
+    }
+    .fields {
+      display: grid; grid-template-columns: minmax(220px, 1fr) 140px 140px auto;
+      gap: 12px; align-items: end;
+    }
+    label { display: block; font-size: 13px; font-weight: 700; margin-bottom: 6px; }
+    input {
+      width: 100%; padding: 10px 11px; border: 1px solid #cbd2d9;
+      border-radius: 7px; font-size: 14px; min-width: 0;
+    }
+    button {
+      border: 0; border-radius: 7px; padding: 11px 15px; cursor: pointer;
+      background: #1769aa; color: white; font-weight: 700; font-size: 14px;
+    }
+    button.secondary { background: #e8edf2; color: #26323d; }
+    button:hover { filter: brightness(.96); }
+    .image-wrap {
+      min-height: 180px; display: flex; align-items: center; justify-content: center;
+      overflow: auto; background: #edf1f4; border: 1px dashed #c4ccd4;
+      border-radius: 9px; padding: 10px;
+    }
+    #targetImage {
+      display: none; max-width: 100%; height: auto; cursor: crosshair;
+      user-select: none; -webkit-user-drag: none;
+    }
+    #placeholder { color: #66717c; text-align: center; padding: 35px 10px; }
+    .readouts {
+      display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px; margin-top: 14px;
+    }
+    .readout { background: #f5f7f9; border-radius: 8px; padding: 12px; }
+    .readout span { display: block; color: #68737e; font-size: 12px; margin-bottom: 5px; }
+    .readout strong { font-size: 18px; overflow-wrap: anywhere; }
+    .captured-head { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+    .captured-head h2 { font-size: 18px; margin: 0; }
+    table { width:100%; border-collapse: collapse; margin-top: 12px; font-size: 14px; }
+    th, td { text-align:left; padding: 10px 8px; border-bottom:1px solid #e5e9ed; }
+    th { color:#5d6872; font-size:12px; }
+    .empty { color:#75808a; padding: 14px 0 2px; }
+    .actions { display:flex; gap:8px; flex-wrap:wrap; }
+    .status { font-size: 13px; color:#a33; margin-top:8px; min-height:18px; }
+    @media (max-width: 760px) {
+      body { padding: 14px; }
+      .fields { grid-template-columns: 1fr 1fr; }
+      .url-field { grid-column: 1 / -1; }
+      .readouts { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <h1>Image Coordinate Finder</h1>
+    <p class="hint">Load an image, enter its original dimensions, then move your cursor over it. Click to save a coordinate.</p>
+
+    <section class="panel">
+      <div class="fields">
+        <div class="url-field">
+          <label for="imageUrl">Image URL</label>
+          <input id="imageUrl" type="url" placeholder="https://example.com/background.png">
+        </div>
+        <div>
+          <label for="imageWidth">Image width (px)</label>
+          <input id="imageWidth" type="number" min="1" value="1728">
+        </div>
+        <div>
+          <label for="imageHeight">Image height (px)</label>
+          <input id="imageHeight" type="number" min="1" value="608">
+        </div>
+        <button id="loadButton" type="button">Load image</button>
+      </div>
+      <div id="status" class="status"></div>
+    </section>
+
+    <section class="panel">
+      <div class="image-wrap" id="imageWrap">
+        <div id="placeholder">Enter an image URL and click “Load image”.</div>
+        <img id="targetImage" alt="Coordinate selection image" draggable="false">
+      </div>
+
+      <div class="readouts">
+        <div class="readout"><span>Pixel X</span><strong id="pixelX">—</strong></div>
+        <div class="readout"><span>Pixel Y</span><strong id="pixelY">—</strong></div>
+        <div class="readout"><span>Normalized X</span><strong id="normalX">—</strong></div>
+        <div class="readout"><span>Normalized Y</span><strong id="normalY">—</strong></div>
+      </div>
+      <p class="hint" style="margin:12px 0 0">Tip: move the cursor to preview coordinates. Click the image to add that point to the list below.</p>
+    </section>
+
+    <section class="panel">
+      <div class="captured-head">
+        <h2>Captured coordinates</h2>
+        <div class="actions">
+          <button class="secondary" id="copyButton" type="button">Copy JSON</button>
+          <button class="secondary" id="clearButton" type="button">Clear all</button>
+        </div>
+      </div>
+      <div id="emptyMessage" class="empty">No coordinates captured yet.</div>
+      <div style="overflow-x:auto">
+        <table id="coordinatesTable" hidden>
+          <thead><tr><th>#</th><th>Pixel X</th><th>Pixel Y</th><th>Normalized X</th><th>Normalized Y</th><th></th></tr></thead>
+          <tbody id="coordinatesBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const imageUrlInput = document.getElementById('imageUrl');
+    const widthInput = document.getElementById('imageWidth');
+    const heightInput = document.getElementById('imageHeight');
+    const image = document.getElementById('targetImage');
+    const placeholder = document.getElementById('placeholder');
+    const status = document.getElementById('status');
+
+    const output = {
+      pixelX: document.getElementById('pixelX'),
+      pixelY: document.getElementById('pixelY'),
+      normalX: document.getElementById('normalX'),
+      normalY: document.getElementById('normalY')
+    };
+
+    let captured = [];
+
+    function dimensions() {
+      const width = Number(widthInput.value);
+      const height = Number(heightInput.value);
+      if (!Number.isFinite(width) || !Number.isFinite(height) || width <= 0 || height <= 0) {
+        throw new Error('Enter a valid image width and height.');
+      }
+      return { width, height };
+    }
+
+    document.getElementById('loadButton').addEventListener('click', () => {
+      const url = imageUrlInput.value.trim();
+      if (!url) {
+        status.textContent = 'Please enter an image URL.';
+        return;
+      }
+      try { dimensions(); } catch (error) {
+        status.textContent = error.message;
+        return;
+      }
+
+      status.textContent = 'Loading image…';
+      image.onload = () => {
+        image.style.display = 'block';
+        placeholder.style.display = 'none';
+        status.textContent = `Loaded. Actual file dimensions: ${image.naturalWidth} × ${image.naturalHeight}px.`;
+        resetReadout();
+      };
+      image.onerror = () => {
+        image.style.display = 'none';
+        placeholder.style.display = 'block';
+        placeholder.textContent = 'Could not load this image. Check the URL and try again.';
+        status.textContent = 'Image loading failed. Some websites block external image display.';
+      };
+      image.src = url;
+    });
+
+    function getCoordinates(event) {
+      const rect = image.getBoundingClientRect();
+      const { width, height } = dimensions();
+
+      // Convert the cursor's displayed position into a 0–1 ratio,
+      // then scale it to the dimensions entered by the user.
+      const ratioX = Math.max(0, Math.min(1, (event.clientX - rect.left) / rect.width));
+      const ratioY = Math.max(0, Math.min(1, (event.clientY - rect.top) / rect.height));
+
+      const pixelX = Math.round(ratioX * width);
+      const pixelY = Math.round(ratioY * height);
+
+      return {
+        x: Number(ratioX.toFixed(4)),
+        y: Number(ratioY.toFixed(4)),
+        pixelX,
+        pixelY
+      };
+    }
+
+    function showCoordinates(point) {
+      output.pixelX.textContent = point.pixelX;
+      output.pixelY.textContent = point.pixelY;
+      output.normalX.textContent = point.x.toFixed(4);
+      output.normalY.textContent = point.y.toFixed(4);
+    }
+
+    function resetReadout() {
+      Object.values(output).forEach(element => element.textContent = '—');
+    }
+
+    image.addEventListener('mousemove', event => {
+      try { showCoordinates(getCoordinates(event)); }
+      catch (error) { status.textContent = error.message; }
+    });
+
+    image.addEventListener('click', event => {
+      try {
+        const point = getCoordinates(event);
+        captured.push(point);
+        showCoordinates(point);
+        renderTable();
+      } catch (error) {
+        status.textContent = error.message;
+      }
+    });
+
+    function renderTable() {
+      const body = document.getElementById('coordinatesBody');
+      const table = document.getElementById('coordinatesTable');
+      const empty = document.getElementById('emptyMessage');
+
+      body.innerHTML = '';
+      captured.forEach((point, index) => {
+        const row = document.createElement('tr');
+        const values = [
+          index + 1, point.pixelX, point.pixelY,
+          point.x.toFixed(4), point.y.toFixed(4)
+        ];
+        values.forEach(value => {
+          const cell = document.createElement('td');
+          cell.textContent = value;
+          row.appendChild(cell);
+        });
+
+        const actionCell = document.createElement('td');
+        const removeButton = document.createElement('button');
+        removeButton.className = 'secondary';
+        removeButton.textContent = 'Remove';
+        removeButton.type = 'button';
+        removeButton.addEventListener('click', () => {
+          captured.splice(index, 1);
+          renderTable();
+        });
+        actionCell.appendChild(removeButton);
+        row.appendChild(actionCell);
+        body.appendChild(row);
+      });
+
+      table.hidden = captured.length === 0;
+      empty.hidden = captured.length !== 0;
+    }
+
+    document.getElementById('clearButton').addEventListener('click', () => {
+      captured = [];
+      renderTable();
+    });
+
+    document.getElementById('copyButton').addEventListener('click', async () => {
+      const json = JSON.stringify(captured, null, 2);
+      try {
+        await navigator.clipboard.writeText(json);
+        status.textContent = 'Coordinates JSON copied to clipboard.';
+      } catch {
+        status.textContent = 'Clipboard access unavailable. Select and copy the coordinates from your browser if needed.';
+        window.prompt('Copy your coordinates JSON:', json);
+      }
+    });
+
+    // Recalculate displayed coordinates using the new entered dimensions.
+    [widthInput, heightInput].forEach(input => {
+      input.addEventListener('change', () => {
+        try { dimensions(); status.textContent = 'Image dimensions updated.'; }
+        catch (error) { status.textContent = error.message; }
+      });
+    });
+
+    imageUrlInput.addEventListener('keydown', event => {
+      if (event.key === 'Enter') document.getElementById('loadButton').click();
+    });
+  </script>
+</body>
+</html>
